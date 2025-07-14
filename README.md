@@ -1,175 +1,212 @@
 # MCP Server Operator
 
-**Operational security guidance tool for MCP server deployment and maintenance. Provides advisory-only guidance for secure configuration, deployment, and ongoing operational hygiene of Model Context Protocol servers.**
+**MCP operations expert and tutor. Teaches users how to securely deploy, configure, and maintain MCP servers, understand operational security best practices, and develop skills for ongoing operational excellence.**
 
 ## Overview
 
-MCP Server Operator is a comprehensive operational security advisor designed to help users safely deploy, configure, and maintain MCP servers in production environments. Unlike enforcement-based security tools, this server takes an advisory-only approach—it doesn't proxy traffic or enforce policies at runtime, but instead guides users through secure deployment practices, risk assessments, and ongoing operational hygiene.
+MCP Server Operator is your expert operational security advisor for deploying and maintaining Model Context Protocol servers. Rather than just being a deployment tool, it serves as a knowledgeable operations tutor who teaches you how to think about operational security, understand deployment risks, and develop the skills to operate MCP servers safely and effectively.
 
-The tool serves as your operational security consultant, providing expert guidance on how to configure, wrap, and monitor MCP server deployments securely. It bridges the critical gap between "the server is secure" and "the deployment is secure" by offering recommendations and best practices for secure operations.
+The server combines operational education with practical guidance capabilities, helping you understand not just how to deploy servers, but how to make good operational decisions, implement security controls, and maintain secure operations over time. It teaches you the operational mindset, walks you through deployment decisions, and helps you build expertise in MCP server operations.
 
-## Key Features
+## Expert-Guided Approach
 
-- **Security Guidance**: Provides recommendations for secure MCP server deployment and configuration
-- **Risk Assessment**: Evaluates deployment risks based on server characteristics and trust factors
-- **Best Practices Advice**: Shares operational security best practices and recommendations
-- **Configuration Recommendations**: Suggests secure configuration options and deployment approaches
-- **Monitoring Guidance**: Advises on what to monitor and how to track security-relevant changes
-- **Future Tool Integration**: Planned capability to integrate with tools for automated security implementation
+This MCP server is designed as an **expert advisor and tutor** in its domain, with the primary focus on providing guidance, education, and practical recommendations rather than being a comprehensive implementation tool. While it includes enough functional capability to be immediately useful and demonstrate real expertise, the long-term vision is for this server to serve as your domain expert who helps you understand the landscape, evaluate options, and find the right tools for your specific needs. As the MCP ecosystem evolves, this server will learn about new tools and approaches, recommending the best solutions while teaching you how to evaluate and use them effectively. The broader Model Context Protocol Security initiative may also develop comprehensive implementation tools, but these specific repositories are focused on being practical expert guidance systems—combining deep domain knowledge with enough hands-on capability to provide genuine value, not just theoretical advice.
 
-## Goals and Strategies
+## Key Capabilities
 
-### Primary Goals
+### Operations Education
+- **Deployment Strategy Teaching**: Guides you through secure deployment approaches and considerations
+- **Risk Assessment Training**: Teaches systematic evaluation of operational security risks
+- **Configuration Security**: Explains secure configuration practices and common pitfalls
+- **Operational Hygiene**: Shares knowledge about ongoing security maintenance and monitoring
+- **Trust-Based Decision Making**: Teaches how to evaluate and manage trust in operational contexts
 
-1. **Provide Secure Deployment Guidance**: Offer recommendations for secure MCP server configuration and deployment
-2. **Enable Risk-Based Decision Making**: Help users assess and understand deployment risks
-3. **Share Security Best Practices**: Provide expert guidance on operational security hygiene
-4. **Bridge Security Knowledge Gaps**: Make security expertise accessible without requiring deep technical knowledge
-5. **Support Informed Deployment Decisions**: Enable users to make security-conscious choices
-6. **Future Tool Integration**: Evolve to integrate with security tools for automated implementation
+### Practical Guidance
+- **Basic Risk Assessment**: Performs fundamental operational risk evaluation
+- **Configuration Review**: Provides guidance on secure configuration options
+- **Deployment Planning**: Helps create basic deployment strategies and plans
+- **Monitoring Recommendations**: Suggests what to monitor and how to track changes
+- **Security Control Suggestions**: Recommends appropriate security controls and measures
 
-### Core Strategies
+### Expert Orchestration
+- **Operations Tool Recommendations**: Suggests specialized deployment and monitoring tools
+- **Expert Referrals**: Connects you with operational security professionals when needed
+- **Methodology Sharing**: Teaches advanced operational security techniques
+- **Resource Guidance**: Points you to relevant operational documentation and resources
+- **Community Best Practices**: Shares collective wisdom from the operations community
 
-#### 1. Advisory-Only Approach
-- **Guidance Without Enforcement**: Provides recommendations without becoming a runtime dependency
-- **Educational Focus**: Teaches users security principles and best practices
-- **Neutral Positioning**: Maintains objectivity while providing expert advice
-- **Information-Based**: Focuses on providing actionable information and recommendations
-- **User Empowerment**: Builds security knowledge rather than creating tool dependencies
+## Goals and Teaching Approach
 
-#### 2. Risk-Based Recommendations
-- **Trust Assessment**: Evaluates risk based on server author reputation and characteristics
-- **Context-Aware Advice**: Tailors recommendations based on specific deployment contexts
-- **Risk Communication**: Clearly communicates risks and mitigation strategies
-- **Decision Support**: Provides information needed for informed security decisions
-- **Continuous Learning**: Incorporates new threats and community knowledge
+### Primary Educational Goals
 
-#### 3. Security Best Practices Sharing
-- **Expert Knowledge**: Shares operational security expertise and industry best practices
-- **Practical Guidance**: Provides actionable advice that users can implement
-- **Configuration Recommendations**: Suggests secure configuration approaches
-- **Monitoring Advice**: Recommends what to monitor and how to track changes
-- **Long-term Hygiene**: Guidance for ongoing security maintenance
+1. **Develop Operational Security Thinking**: Teach users to approach MCP server operations with a security mindset
+2. **Build Risk Assessment Skills**: Help users evaluate and manage operational security risks
+3. **Foster Deployment Awareness**: Educate about secure deployment practices and considerations
+4. **Promote Operational Excellence**: Share knowledge about effective operational practices
+5. **Enable Independent Operations**: Provide frameworks for managing server operations autonomously
+6. **Build Community Knowledge**: Contribute to collective understanding of MCP operational security
 
-#### 4. Future Tool Integration
-- **Automation Potential**: Planned capability to integrate with security tools
-- **Implementation Assistance**: Future ability to help implement recommended security measures
-- **Monitoring Integration**: Planned integration with monitoring and alerting systems
-- **Template Generation**: Future capability to generate configuration templates
-- **Ecosystem Evolution**: Adaptation to support more automated security implementation
+### Teaching Strategies
 
-## High-Level Workflow
+#### 1. Interactive Operations Learning
+- **Risk Assessment Sessions**: Walks you through evaluating operational risks systematically
+- **Deployment Planning**: Provides guided experience with deployment decision-making
+- **Configuration Review**: Helps you understand secure configuration principles
+- **Monitoring Strategy**: Teaches what to monitor and how to detect security issues
+- **Incident Response**: Guides you through handling operational security incidents
 
-### Phase 1: Initial Assessment and Guidance
-1. **Server Analysis**: Analyze the target MCP server's characteristics and requirements
-2. **Risk Evaluation**: Assess potential security risks and trust factors
-3. **Context Understanding**: Understand the deployment environment and constraints
-4. **Initial Recommendations**: Provide initial security guidance and best practices
-5. **Priority Setting**: Help prioritize security measures based on risk assessment
+#### 2. Practical Operations Application
+- **Real-World Examples**: Uses actual MCP server deployments to illustrate concepts
+- **Case Study Analysis**: Examines both secure and problematic operational approaches
+- **Scenario-Based Learning**: Presents different operational contexts and challenges
+- **Hands-On Planning**: Provides opportunities to apply learned operational concepts
+- **Skill Building**: Develops your ability to manage operations security independently
 
-### Phase 2: Deployment Guidance
-1. **Configuration Advice**: Recommend secure configuration options and settings
-2. **Isolation Recommendations**: Suggest appropriate containerization and network isolation
-3. **Access Control Guidance**: Advise on authentication and authorization approaches
-4. **Monitoring Recommendations**: Suggest what to monitor and how to track security events
-5. **Best Practices Sharing**: Provide relevant security best practices and patterns
+#### 3. Operations Knowledge Sharing
+- **Expert Insights**: Provides professional operational security perspectives and experience
+- **Community Wisdom**: Shares collective knowledge from the operations community
+- **Emerging Practices**: Keeps you informed about new operational security approaches
+- **Technology Evolution**: Teaches how operational practices evolve with the ecosystem
+- **Continuous Learning**: Stays current with operational tools and techniques
 
-### Phase 3: Operational Advice
-1. **Maintenance Guidance**: Recommend ongoing security maintenance practices
-2. **Change Monitoring**: Advise on tracking server and configuration changes
-3. **Risk Management**: Provide guidance on managing ongoing security risks
-4. **Incident Response**: Offer advice for handling security incidents
-5. **Continuous Improvement**: Recommend approaches for improving security posture
+## Expert Knowledge Areas
 
-## Deployment Scenarios
+### Operational Security Principles
+- **Trust Assessment**: Evaluating the trustworthiness of servers, authors, and sources
+- **Risk Management**: Systematic approaches to identifying and mitigating operational risks
+- **Defense in Depth**: Implementing layered security controls for comprehensive protection
+- **Least Privilege**: Applying minimal necessary permissions and access controls
+- **Monitoring and Detection**: Implementing effective security monitoring and alerting
+- **Incident Response**: Preparing for and responding to operational security incidents
 
-### Guidance Types
-- **Trusted Server Guidance**: Streamlined recommendations for known, trusted MCP servers
-- **Community Server Guidance**: Enhanced security advice for community-developed servers
-- **Unknown Server Guidance**: Maximum security precautions for untrusted or unknown sources
-- **Enterprise Guidance**: Comprehensive security recommendations for organizational environments
-- **Development Environment**: Balanced security advice for development and testing scenarios
+### Deployment Best Practices
+- **Secure Configuration**: Implementing secure default configurations and hardening
+- **Isolation Strategies**: Using containerization and network isolation effectively
+- **Access Controls**: Implementing authentication and authorization properly
+- **Network Security**: Securing network communications and access
+- **Resource Management**: Managing computational resources and limits securely
+- **Update Management**: Safely managing server updates and patches
 
-### Recommendation Approach
-Each scenario receives tailored security recommendations and appropriate risk mitigation advice based on the trust level and deployment context.
+### Operational Excellence
+- **Change Management**: Safely managing configuration and deployment changes
+- **Monitoring Strategy**: Comprehensive monitoring of security and operational health
+- **Documentation Standards**: Maintaining clear operational documentation and procedures
+- **Backup and Recovery**: Implementing robust backup and disaster recovery procedures
+- **Performance Management**: Monitoring and optimizing server performance
+- **Compliance Management**: Meeting regulatory and organizational security requirements
 
-## Context Resilience
+## Practical Workflow
 
-When providing operational guidance across multiple sessions, the tool:
-1. **Saves Assessment Progress**: Preserves risk assessments and security evaluations
-2. **Maintains Recommendations**: Retains security guidance and advice across sessions
-3. **Tracks Guidance History**: Records what advice has been provided and when
-4. **Supports Iterative Consultation**: Enables ongoing refinement of security recommendations
-5. **Preserves Context**: Maintains understanding of deployment context and constraints
+### Phase 1: Operational Planning and Risk Assessment
+1. **Requirements Analysis**: Help you understand operational requirements and constraints
+2. **Risk Assessment Education**: Teach systematic approaches to operational risk evaluation
+3. **Trust Evaluation**: Guide you through assessing server and author trustworthiness
+4. **Security Objectives**: Define operational security goals and success criteria
+5. **Deployment Strategy**: Develop appropriate deployment approach based on risk assessment
+
+### Phase 2: Deployment Design and Configuration
+1. **Security Architecture**: Guide you through designing secure deployment architecture
+2. **Configuration Planning**: Teach secure configuration principles and practices
+3. **Isolation Strategy**: Help you implement appropriate isolation and containment
+4. **Access Control Design**: Guide you through authentication and authorization setup
+5. **Monitoring Planning**: Design comprehensive monitoring and alerting strategies
+
+### Phase 3: Deployment Validation and Testing
+1. **Configuration Review**: Validate deployment configuration against security best practices
+2. **Security Testing**: Guide you through testing security controls and measures
+3. **Operational Readiness**: Assess readiness for production deployment
+4. **Documentation Validation**: Ensure comprehensive operational documentation
+5. **Incident Response Planning**: Prepare procedures for handling security incidents
+
+### Phase 4: Ongoing Operations and Maintenance
+1. **Monitoring Implementation**: Guide you through implementing security monitoring
+2. **Change Management**: Teach safe approaches to ongoing configuration changes
+3. **Security Maintenance**: Provide guidance on ongoing security hygiene practices
+4. **Performance Monitoring**: Help you monitor and optimize operational performance
+5. **Continuous Improvement**: Teach approaches for improving operational security over time
+
+## Basic Functional Capabilities
+
+### Risk Assessment Functions
+- **Basic Risk Analysis**: Fundamental evaluation of operational security risks
+- **Trust Assessment**: Evaluation of server and author trustworthiness factors
+- **Configuration Review**: Assessment of security-relevant configuration options
+- **Deployment Analysis**: Review of deployment approaches and security implications
+- **Monitoring Assessment**: Evaluation of monitoring and alerting strategies
+
+### Guidance Functions
+- **Interactive Consultation**: Conversational guidance through operational decisions
+- **Security Planning**: Assistance with operational security planning and strategy
+- **Configuration Advice**: Recommendations for secure configuration options
+- **Monitoring Guidance**: Advice on what to monitor and how to detect issues
+- **Incident Response**: Guidance on handling operational security incidents
+
+### Educational Functions
+- **Risk Assessment Training**: Guided learning for operational risk evaluation
+- **Best Practice Teaching**: Instruction in operational security best practices
+- **Scenario Analysis**: Educational exploration of different operational contexts
+- **Decision Framework**: Structured approaches to operational decision-making
+- **Skill Assessment**: Evaluation of operational security knowledge and gaps
 
 ## Integration with Ecosystem
 
-### Input Sources
-- **mcpserver-finder**: Import discovery reports and server recommendations for deployment guidance
-- **mcpserver-audit**: Import security assessments and audit findings for risk evaluation
-- **mcpserver-builder**: Import development requirements and security specifications
-- **Community Intelligence**: Leverage community knowledge about server trust and reputation
-- **Operational Feedback**: Incorporate lessons learned from deployment experiences
+### Learning from Other Experts
+- **mcpserver-finder**: Understand discovery patterns that indicate operational concerns
+- **mcpserver-audit**: Incorporate security findings into operational risk assessment
+- **mcpserver-builder**: Learn about development practices that affect operations
+- **vulnerability-db**: Access vulnerability intelligence for operational risk assessment
+- **audit-db**: Learn from community operational experiences and assessments
 
-### Output Destinations
-- **Deployment Systems**: Generated templates and configurations for actual deployment
-- **Monitoring Systems**: Configuration templates for security monitoring and alerting
-- **Policy Frameworks**: Organizational security policies and compliance templates
-- **Knowledge Base**: Operational security insights and best practices
-- **Community Contributions**: Anonymized deployment patterns and security guidance
+### Teaching Preparation for Next Steps
+- **Security Monitoring**: Prepare users for ongoing security monitoring and maintenance
+- **Incident Response**: Ensure users understand how to handle operational security issues
+- **Change Management**: Teach safe approaches to operational changes and updates
+- **Performance Optimization**: Guide users in optimizing operational performance
 
-## Guidance Areas and Recommendations
+## Expert Development and Learning
 
-### Security Configuration Guidance
-- **Containerization**: Advice on secure containerization approaches and isolation strategies
-- **Network Security**: Recommendations for network isolation and access controls
-- **Authentication**: Guidance on secure authentication and authorization approaches
-- **Monitoring**: Advice on what to monitor and how to track security-relevant events
-- **Configuration Management**: Recommendations for secure configuration practices
+### Continuous Operations Knowledge Updates
+- **Threat Intelligence**: Stay current with emerging operational security threats
+- **Tool Evolution**: Learn about new deployment and monitoring tools
+- **Best Practice Evolution**: Adapt guidance based on evolving operational practices
+- **Community Engagement**: Incorporate insights from operations professionals and users
+- **Technology Updates**: Monitor changes in deployment technologies and practices
 
-### Operational Security Advice
-- **Risk Assessment**: Guidance on evaluating and managing deployment risks
-- **Change Management**: Advice on tracking and managing server and configuration changes
-- **Incident Response**: Recommendations for handling security incidents and breaches
-- **Maintenance**: Guidance on ongoing security maintenance and hygiene practices
-- **Documentation**: Advice on maintaining security documentation and procedures
+### Teaching Methodology Improvement
+- **Learning Assessment**: Evaluate how well users develop operational security skills
+- **Approach Refinement**: Improve operational education methods based on user success
+- **Curriculum Development**: Enhance operational education content and progression
+- **Feedback Integration**: Incorporate user feedback into teaching approaches
+- **Skill Development**: Better understanding of operational knowledge gaps and needs
 
-## Quality Assurance
+## Operational Scenarios
 
-### Guidance Quality Standards
-- **Expert-Based Recommendations**: Advice grounded in security expertise and industry best practices
-- **Actionable Information**: Practical guidance that users can understand and implement
-- **Context-Appropriate**: Recommendations tailored to specific deployment scenarios and risk profiles
-- **Current Knowledge**: Regular updates based on emerging threats and community feedback
-- **Clear Communication**: Security advice presented in accessible, understandable language
+### Deployment Types
+- **Trusted Server Operations**: Streamlined operational guidance for known, trusted servers
+- **Community Server Operations**: Enhanced security measures for community-developed servers
+- **Unknown Server Operations**: Maximum security precautions for untrusted sources
+- **Enterprise Operations**: Comprehensive security controls for organizational environments
+- **Development Operations**: Balanced security for development and testing environments
 
-### Recommendation Validation
-- **Expert Review**: Security recommendations reviewed by security professionals
-- **Community Feedback**: Incorporation of user experiences and practical implementation insights
-- **Continuous Updates**: Regular refinement of advice based on new threats and best practices
-- **Practical Testing**: Validation that recommended measures are implementable and effective
-- **Knowledge Evolution**: Ongoing improvement of guidance based on operational outcomes
+### Operational Approaches
+Each operational scenario receives tailored guidance, appropriate risk assessment, and specific security recommendations based on the trust level and operational context.
 
-## Usage
+## Usage and Access
 
-This MCP server is designed to be used with MCP-compatible clients and initially requires:
-- **Basic Information Access**: For analyzing server characteristics and providing relevant guidance
-- **Community Knowledge**: For accessing trust and reputation information about servers and authors
-- **Security Best Practices Database**: For providing current security recommendations and advice
-
-Future versions may integrate with:
-- **Security Tools**: For automated implementation of security recommendations
-- **Monitoring Systems**: For enhanced operational security guidance
-- **Deployment Tools**: For assisted implementation of security measures
+This MCP server is designed to be used with MCP-compatible clients and requires:
+- **Interactive Capabilities**: For conversational operational guidance and tutoring
+- **Basic Configuration Access**: For reviewing and providing configuration guidance
+- **Risk Assessment Tools**: For evaluating operational security risks
+- **Community Intelligence**: For accessing information about server trust and reputation
 
 ## Contributing
 
-This tool is part of the broader Model Context Protocol Security initiative. Contributions are welcome, particularly:
-- **Security Guidance**: Improved recommendations and best practices for MCP server deployment
-- **Risk Assessment Methods**: Better approaches for evaluating deployment risks and trust factors
-- **Operational Knowledge**: Real-world insights about secure MCP server operations
-- **Community Intelligence**: Information about server trust, reputation, and security characteristics
-- **Best Practices Documentation**: Practical guidance for secure MCP server deployment and maintenance
+This tool is part of the broader Model Context Protocol Security initiative. We welcome contributions that enhance the operational expertise and teaching capabilities:
+- **Operations Expertise**: Insights about secure MCP server deployment and operations
+- **Teaching Methods**: Improved approaches for educating users about operational security
+- **Risk Assessment Frameworks**: Better methods for evaluating operational risks
+- **Best Practices**: Proven approaches for secure MCP server operations
+- **Community Intelligence**: Information about operational security patterns and experiences
 
 ---
 
