@@ -208,6 +208,10 @@ This tool is part of the broader Model Context Protocol Security initiative. We 
 - **Best Practices**: Proven approaches for secure MCP server operations
 - **Community Intelligence**: Information about operational security patterns and experiences
 
+## Get Involved
+
+Join our community: [GitHub Discussions](https://github.com/orgs/ModelContextProtocol-Security/discussions) • [Slack #mcp channel](https://csaurl.org/mcp-invite) • [Contribute on GitHub](https://github.com/ModelContextProtocol-Security)
+
 ---
 
 *Part of the [Model Context Protocol Security](https://modelcontextprotocol-security.io/) initiative - A Cloud Security Alliance community project.*
